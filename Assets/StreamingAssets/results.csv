@@ -1,8 +1,8 @@
 ,Red,White,Blue,Green,Pink,Orange,Black
-Red,RR,WR,BR,GR,PR,OR,BlR
-White,WR,WW,BW,GW,PW,OW,BlW
-Blue,RB,WB,BB,GB,PB,OB,BlB
-Green,RG,RG,BG,GG,PG,OG,BlG
-Pink,RP,WP,BP,GP,PP,OP,BlP
-Orange,RO,WO,BO,GO,PO,OO,BlO
-Black,RBl,WBl,BBl,GBl,PBl,OBl,BlBl
+Red,RR,WR,BR,GR,PR,OR,BLR
+White,WR,WW,BW,GW,PW,OW,BLW
+Blue,RB,WB,BB,GB,PB,OB,BLB
+Green,RG,RG,BG,GG,PG,OG,BLG
+Pink,RP,WP,BP,GP,PP,OP,BLP
+Orange,RO,WO,BO,GO,PO,OO,BLO
+Black,RBL,WBL,BBL,GBL,PBL,OBL,BLBL

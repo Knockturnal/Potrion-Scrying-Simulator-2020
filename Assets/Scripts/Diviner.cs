@@ -7,6 +7,7 @@ using System.IO;
 
 public enum PotionType {Red, White, Blue, Green, Pink, Orange, Black};
 
+[ExecuteAlways]
 public class Diviner : MonoBehaviour
 {
 	public static Diviner myDiviner;
@@ -18,11 +19,19 @@ public class Diviner : MonoBehaviour
 	private PotionType firstPotion;
 	private bool second;
 	private string CSVContent;
+
 	private void Awake()
 	{
 		myDiviner = this;
-		List<DivinationResult> divinationResults = new List<DivinationResult>();
-		ParseResultsCSV();
+	}
+
+	private void Update()
+	{
+		if (!Application.isPlaying)
+		{
+			divinationResults = new List<DivinationResult>();
+			ParseResultsCSV();
+		}
 	}
 
 	public void PotionSelected(PotionType type) 
