@@ -7,8 +7,10 @@ public class PotionButton : MonoBehaviour
 	[SerializeField]
 	private PotionType type;
 
+	[SerializeField]
+	private EasyDiviner diviner;
 	public void IWasClicked() 
 	{
-		Diviner.myDiviner.PotionSelected(type);
+		diviner.PotionSelected(type);
 	}
 }

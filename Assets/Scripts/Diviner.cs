@@ -5,7 +5,6 @@ using TMPro;
 using System.Linq;
 using System.IO;
 
-public enum PotionType {Red, White, Blue, Green, Pink, Orange, Black};
 
 [ExecuteAlways]
 public class Diviner : MonoBehaviour
